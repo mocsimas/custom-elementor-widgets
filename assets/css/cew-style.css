@@ -1,0 +1,44 @@
+.sm-recent-posts-wrapper .sm-recent-post-card{
+    margin-bottom: 40px;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-categories-container{
+    font-size: 15px;
+    color: darkgray;
+    font-style: italic;
+    margin: 5px 0;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-title{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: inherit;
+    font-size: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-title a{
+    display: block;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-excerpt p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.sm-recent-posts-wrapper .sm-recent-post-card .sm-recent-post-button{
+    font-size: 15px;
+}
